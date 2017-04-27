@@ -1,6 +1,6 @@
 # npmtest-magnific-popup
 
-#### test coverage for  [magnific-popup (v1.1.0)](http://dimsemenov.com/plugins/magnific-popup/)  [![npm package](https://img.shields.io/npm/v/npmtest-magnific-popup.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-magnific-popup) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-magnific-popup.svg)](https://travis-ci.org/npmtest/node-npmtest-magnific-popup)
+#### basic test coverage for  [magnific-popup (v1.1.0)](http://dimsemenov.com/plugins/magnific-popup/)  [![npm package](https://img.shields.io/npm/v/npmtest-magnific-popup.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-magnific-popup) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-magnific-popup.svg)](https://travis-ci.org/npmtest/node-npmtest-magnific-popup)
 
 #### Lightbox and modal dialog plugin. Can display inline HTML, iframes (YouTube video, Vimeo, Google Maps), or an image gallery. Animation effects are added with CSS3 transitions. For jQuery or Zepto.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-magnific-popup/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-magnific-popup/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-magnific-popup/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-magnific-popup/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-magnific-popup/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-magnific-popup/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-magnific-popup/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-magnific-popup/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-magnific-popup/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-magnific-popup/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-magnific-popup/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-magnific-popup/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
     },
     "style": "dist/magnific-popup.css",
     "title": "Magnific Popup",
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
